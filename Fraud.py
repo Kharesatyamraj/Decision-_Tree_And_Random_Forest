@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Oct 17 20:24:36 2021
+
 
 @author: khare
 """
@@ -9,7 +9,7 @@ Created on Sun Oct 17 20:24:36 2021
 #Treat those who have taxable_income <= 30000 as Risky and others as
 # Good (discretize the taxable_income column)
 
-data = pd.read_csv(r'C:/Users/khare/Downloads/DTree/Assign/DT_RF problem Statement\Fraud_check.csv')
+data = pd.read_csv(r'\Fraud_check.csv')
 
 ####Data Preprocessing
 
