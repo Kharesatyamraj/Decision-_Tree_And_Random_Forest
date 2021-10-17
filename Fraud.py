@@ -5,9 +5,7 @@
 @author: khare
 """
 
-#3)Build a Decision Tree & Random Forest model on the fraud data. 
-#Treat those who have taxable_income <= 30000 as Risky and others as
-# Good (discretize the taxable_income column)
+
 
 data = pd.read_csv(r'\Fraud_check.csv')
 
